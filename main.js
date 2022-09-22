@@ -65,12 +65,12 @@ Array(1000).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load("Virgo.jpg");
+const spaceTexture = new THREE.TextureLoader().load("threejs_portfolio/Virgo.jpg");
 scene.background = spaceTexture;
 
 // Avatar
 
-const MehdiTexture = new THREE.TextureLoader().load("Mehdi.jpg");
+const MehdiTexture = new THREE.TextureLoader().load("threejs_portfolio/Mehdi.jpg");
 
 const Mehdi = new THREE.Mesh(
   new THREE.BoxGeometry(3, 3, 3),
@@ -81,8 +81,8 @@ scene.add(Mehdi);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load("moon.jpg");
-const normalTexture = new THREE.TextureLoader().load("normal.jpg");
+const moonTexture = new THREE.TextureLoader().load("threejs_portfolio/moon.jpg");
+const normalTexture = new THREE.TextureLoader().load("threejs_portfolio/normal.jpg");
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(4, 32, 32),
